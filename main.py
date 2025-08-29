@@ -206,4 +206,5 @@ plt.legend()
 plt.savefig(os.path.join(PROJECT_DIR, "error_type_comparison.png"))
 plt.close()
 
+
 print("Analysis complete. Check 'russian_transcriptions.csv', 'mongolian_transcriptions.csv', 'wer_comparison.png', 'error_type_comparison.png', and 'failed_transcriptions.txt' for results.")
